@@ -61,3 +61,20 @@ CORRECT!
 ...
 
 You Answered 10 Multiplication Questions Correctly!
+
+## Summary
+
+This project builds a flexible quiz simulation system using object-oriented design principles. By leveraging inheritance, polymorphism, and encapsulation, the program supports multiple question types while maintaining a clean and extensible architecture. The implementation of dynamically generated multiplication questions highlights how new functionality can be integrated seamlessly while preserving the overall system design.
+
+# How to Run
+
+1. **Place all files in the same directory**
+   - Source files (`.cpp`, `.h`)
+
+2. **Compile the program**
+   ```bash
+   g++ -std=c++17 Source.cpp Question.cpp ShortAnswerQuestion.cpp MultipleChoiceQuestion.cpp TrueFalseQuestion.cpp MultiplicationQuestion.cpp -o quiz
+
+3. **Run the Executable**
+   ```bash
+   ./quiz
